@@ -231,10 +231,10 @@ const lay = L.control.layers.tree(baseTree, overlaysTree, {
   selectorBack: false,
   closedSymbol: "&#8862; &#x1f5c0;",
   openedSymbol: "&#8863; &#x1f5c1;",
-  collapsed: true,
+  collapsed: false,
 })
 
-lay.addTo(map).collapseTree(true).expandSelected(true)
+lay.addTo(map)
 
 L.control
   .locate({
