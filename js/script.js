@@ -218,7 +218,8 @@ const baseTree = {
 }
 
 const overlaysTree = {
-	[
+  label: "Couches",
+  children: [
           { label: "Réseau RAAV", layer: raavLayer },
 	  { label: "Épaisseur Chaussée", layer: chausseeLayer},
           { label: "Google Street View", layer: markerGSV }
