@@ -218,10 +218,11 @@ const baseTree = {
 }
 
 const overlaysTree = {
-        { label: "Réseau RAAV", layer: raavLayer },
-	{ label: "Épaisseur Chaussée", layer: chausseeLayer},
-        { label: "Google Street View", layer: markerGSV }
-
+	[
+          { label: "Réseau RAAV", layer: raavLayer },
+	  { label: "Épaisseur Chaussée", layer: chausseeLayer},
+          { label: "Google Street View", layer: markerGSV }
+	]
 }
 
 const lay = L.control.layers.tree(baseTree, overlaysTree, {
