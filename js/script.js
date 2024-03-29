@@ -218,15 +218,10 @@ const baseTree = {
 }
 
 const overlaysTree = {
-  label: "Calques de travail",
-  selectAllCheckbox: "Un/select all",
-  children: [
-
         { label: "Réseau RAAV", layer: raavLayer },
 	{ label: "Épaisseur Chaussée", layer: chausseeLayer},
         { label: "Google Street View", layer: markerGSV }
 
-  ],
 }
 
 const lay = L.control.layers.tree(baseTree, overlaysTree, {
