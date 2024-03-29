@@ -231,8 +231,6 @@ const lay = L.control.layers.tree(baseTree, overlaysTree, {
   selectorBack: false,
   closedSymbol: "&#8862; &#x1f5c0;",
   openedSymbol: "&#8863; &#x1f5c1;",
-  collapseAll: "Réduire tout",
-  expandAll: "Développer tout",
   collapsed: true,
 })
 
